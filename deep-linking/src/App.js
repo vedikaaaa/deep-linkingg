@@ -35,11 +35,17 @@ const App = () => {
 
       window.location.replace(url);
     } else if (isIOS) {
-      window.location.replace("instagram://");
+      // window.location.replace("instagram://");
+      window.location.replace("facebook://");
 
+      // setTimeout(() => {
+      //   window.location.replace(
+      //     "https://apps.apple.com/us/app/instagram/id389801252"
+      //   );
+      // }, 10000);
       setTimeout(() => {
         window.location.replace(
-          "https://apps.apple.com/us/app/instagram/id389801252"
+          "https://apps.apple.com/in/app/facebook/id284882215"
         );
       }, 10000);
     } else {
@@ -57,7 +63,7 @@ const App = () => {
           Open Android app
         </a>
       ) : isIOS ? (
-        <a href="https://apps.apple.com/us/app/instagram/id389801252">
+        <a href="https://apps.apple.com/in/app/facebook/id284882215">
           Open iOS app
         </a>
       ) : (
