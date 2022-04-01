@@ -41,8 +41,8 @@ const App = () => {
 
       setTimeout(() => {
         window.location.replace(
-          "excel"
-        );
+          "excel");
+        
       }, 2000);
 
       setTimeout(() => {
