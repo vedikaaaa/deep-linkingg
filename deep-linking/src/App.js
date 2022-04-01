@@ -35,15 +35,20 @@ const App = () => {
 
       window.location.replace(url);
     } else if (isIOS) {
-      window.location.replace("ola-the-top-ride-hailing-app://");
+      window.location.replace("word://");
       // window.location.replace("instagram://");
       // window.location.replace("facebook://");
 
       setTimeout(() => {
         window.location.replace(
-          "https://apps.apple.com/in/app/ola-the-top-ride-hailing-app/id539179365"
+          "https://apps.apple.com/in/app/microsoft-word/id586447913"
         );
-      }, 10000);
+      }, 2000);
+      // setTimeout(() => {
+      //   window.location.replace(
+      //     "https://apps.apple.com/in/app/ola-the-top-ride-hailing-app/id539179365"
+      //   );
+      // }, 10000);
       // setTimeout(() => {
       //   window.location.replace(
       //     "https://apps.apple.com/us/app/instagram/id389801252"
