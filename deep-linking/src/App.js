@@ -35,15 +35,21 @@ const App = () => {
 
       window.location.replace(url);
     } else if (isIOS) {
-      window.location.replace("excel://");
+      window.location.replace("word://");
       // window.location.replace("instagram://");
       // window.location.replace("facebook://");
 
       setTimeout(() => {
         window.location.replace(
-          "https://apps.apple.com/in/app/microsoft-word/id586447913"
+          "excel"
         );
       }, 2000);
+
+      setTimeout(() => {
+        window.location.replace(
+          "https://apps.apple.com/in/app/microsoft-word/id586447913"
+        );
+      }, 4000);
       // setTimeout(() => {
       //   window.location.replace(
       //     "https://apps.apple.com/in/app/ola-the-top-ride-hailing-app/id539179365"
